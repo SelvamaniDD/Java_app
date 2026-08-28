@@ -4,7 +4,7 @@
   <groupId>com.example</groupId>
   <artifactId>my-app</artifactId>
   <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>my-app Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
@@ -12,8 +12,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <sonar.host.url>http://52.66.249.80:9000</sonar.host.url>
-    <sonar.login>sqa_5d11f90f48de940607eec914c65897bc43a2e576</sonar.login>
+    <sonar.host.url>http://65.2.79.152:9000</sonar.host.url>
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
@@ -23,7 +22,6 @@
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>3.0.1</version>
-      <!-- <scope>provided</scope> -->
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -55,7 +53,11 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.4.0</version>
       </plugin>
-      <!-- Also ensure maven-compiler-plugin is up to date -->
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>5.4.0.6343</version>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>

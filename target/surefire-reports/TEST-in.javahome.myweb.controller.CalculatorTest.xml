@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="in.javahome.myweb.controller.CalculatorTest" time="0.043" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.javahome.myweb.controller.CalculatorTest" time="0.038" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="21.0.10+7-Ubuntu-124.04"/>
+    <property name="java.vm.version" value="21.0.12+8-1-26.04-Ubuntu"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
     <property name="maven.multiModuleProjectDirectory" value="/opt/Java_app"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
@@ -15,16 +15,17 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/opt/Java_app"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="21.0.10+7-Ubuntu-124.04"/>
+    <property name="java.runtime.version" value="21.0.12+8-1-26.04-Ubuntu"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="stderr.encoding" value="UTF-8"/>
     <property name="os.name" value="Linux"/>
+    <property name="guice_custom_class_loading" value="CHILD"/>
     <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="sonar.login" value="sqa_a556ba8d22250b9ba06fc6e715d3bfe8717c1730"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
     <property name="maven.conf" value="/usr/share/maven/conf"/>
@@ -32,7 +33,7 @@
     <property name="java.class.version" value="65.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="6.14.0-1018-aws"/>
+    <property name="os.version" value="7.0.0-1006-aws"/>
     <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
     <property name="user.home" value="/root"/>
     <property name="user.timezone" value="Etc/UTC"/>
@@ -42,22 +43,22 @@
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean compile test package sonar:sonar"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package sonar:sonar -Dsonar.login=sqa_a556ba8d22250b9ba06fc6e715d3bfe8717c1730"/>
     <property name="java.home" value="/usr/lib/jvm/java-21-openjdk-amd64"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="21.0.10"/>
+    <property name="java.version" value="21.0.12"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.vendor" value="Ubuntu"/>
     <property name="maven.home" value="/usr/share/maven"/>
     <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.version.date" value="2026-07-21"/>
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-21"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="in.javahome.myweb.controller.CalculatorTest" name="testMultiply" time="0.003"/>
-  <testcase classname="in.javahome.myweb.controller.CalculatorTest" name="testAdd" time="0.04"/>
-  <testcase classname="in.javahome.myweb.controller.CalculatorTest" name="testAddNew" time="0"/>
+  <testcase name="testAddNew" classname="in.javahome.myweb.controller.CalculatorTest" time="0.004"/>
+  <testcase name="testAdd" classname="in.javahome.myweb.controller.CalculatorTest" time="0.034"/>
+  <testcase name="testMultiply" classname="in.javahome.myweb.controller.CalculatorTest" time="0"/>
 </testsuite>
