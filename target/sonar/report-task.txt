@@ -1,6 +1,0 @@
-projectKey=com.example:my-app
-serverUrl=http://65.2.79.152:9000
-serverVersion=26.1.0.118079
-dashboardUrl=http://65.2.79.152:9000/dashboard?id=com.example%3Amy-app
-ceTaskId=ced558bf-45f0-4c5e-bf41-59e8406d5e6d
-ceTaskUrl=http://65.2.79.152:9000/api/ce/task?id=ced558bf-45f0-4c5e-bf41-59e8406d5e6d
